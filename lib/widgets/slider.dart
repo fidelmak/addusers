@@ -22,6 +22,22 @@ class HomePage extends StatelessWidget {
                           image: AssetImage("images/slide3.jpg"),
                           fit: BoxFit.cover),
                     )),
+                Container(
+                    margin: const EdgeInsets.all(6.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8.0),
+                      image: const DecorationImage(
+                          image: AssetImage("images/slide2.jpg"),
+                          fit: BoxFit.cover),
+                    )),
+                Container(
+                    margin: const EdgeInsets.all(6.0),
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(8.0),
+                      image: const DecorationImage(
+                          image: AssetImage("images/slide4.jpg"),
+                          fit: BoxFit.cover),
+                    )),
               ],
               options: CarouselOptions(
                 height: 180.0,
