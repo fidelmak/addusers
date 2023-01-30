@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8.0),
                       image: const DecorationImage(
-                          image: AssetImage("images/slider3.jpg"),
+                          image: AssetImage("images/slide3.jpg"),
                           fit: BoxFit.cover),
                     )),
               ],
