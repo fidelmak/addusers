@@ -13,10 +13,10 @@ class myApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Add User ",
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.blueGrey,
       ),
-      darkTheme: ThemeData.dark(),
-      home:HomePage(),
+      // darkTheme: ThemeData.dark(),
+      home: HomePage(),
     );
   }
 }
