@@ -11,7 +11,7 @@ class myApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Add User ",
+      title: "Awesome App ",
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),

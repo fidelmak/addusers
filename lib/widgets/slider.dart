@@ -8,7 +8,28 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Add User"),
+          title: const Text("Awesome App"),
+          titleSpacing: 13.0,
+          centerTitle: true,
+          toolbarHeight: 60.2,
+          toolbarOpacity: 0.8,
+          actions: <Widget>[
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.comment),
+            ),
+            IconButton(
+              onPressed: () {},
+              icon: const Icon(Icons.account_circle),
+            ),
+          ],
+          leading: IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.menu),
+          ),
+
+          elevation: 50.0,
+          // color:Colors.blue,
         ),
         body: ListView(
           children: [
@@ -43,13 +64,14 @@ class HomePage extends StatelessWidget {
                 height: 220.0,
                 enlargeCenterPage: true,
                 autoPlay: true,
-                aspectRatio: 16 / 9,
+                aspectRatio: 12 / 5,
                 autoPlayCurve: Curves.fastOutSlowIn,
                 enableInfiniteScroll: true,
-                autoPlayAnimationDuration: Duration(milliseconds: 80),
+                autoPlayAnimationDuration: Duration(milliseconds: 40),
                 viewportFraction: 0.8,
               ),
-            )
+            ),
+            //new widget here
           ],
         ));
   }
