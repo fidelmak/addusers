@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import './widgets/slider.dart';
+import './widgets/content.dart';
 
 void main() {
   runApp(myApp());
