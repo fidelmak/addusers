@@ -49,7 +49,7 @@ class _contentState extends State<content> {
               children: <Widget>[
                 Expanded(
                   child: TextButton(
-                    child: Image.asset('images/r$click.jpg',
+                    child: Image.asset('assets/images/r$click.jpg',
                         height: 150, fit: BoxFit.fill),
                     onPressed: () {
                       set();
@@ -73,7 +73,7 @@ class _contentState extends State<content> {
               children: <Widget>[
                 Expanded(
                   child: TextButton(
-                    child: Image.asset('images/r$click.jpg',
+                    child: Image.asset('assets/images/r$click.jpg',
                         height: 150, fit: BoxFit.fill),
                     onPressed: () {
                       set();

@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
-                        image: AssetImage("images/slide3.jpg"),
+                        image: AssetImage("assets/images/slide3.jpg"),
                         fit: BoxFit.cover),
                   )),
               Container(
@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
-                        image: AssetImage("images/slide2.jpg"),
+                        image: AssetImage("assets/images/slide2.jpg"),
                         fit: BoxFit.cover),
                   )),
               Container(
@@ -58,7 +58,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
-                        image: AssetImage("images/slide4.jpg"),
+                        image: AssetImage("assets/images/slide4.jpg"),
                         fit: BoxFit.cover),
                   )),
               Container(
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
-                        image: AssetImage("images/slide3.jpg"),
+                        image: AssetImage("assets/images/slide3.jpg"),
                         fit: BoxFit.cover),
                   )),
             ],
