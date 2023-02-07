@@ -71,7 +71,7 @@ class HomePage extends StatelessWidget {
                   )),
             ],
             options: CarouselOptions(
-              height: 140.0,
+              height: 160.0,
               enlargeCenterPage: true,
               autoPlay: true,
               aspectRatio: 12 / 5,
