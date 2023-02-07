@@ -26,6 +26,8 @@ class _contentState extends State<content> {
   @override
   Widget build(BuildContext context) {
     int click = Random().nextInt(5) + 1;
+    int clk = Random().nextInt(6) + 1;
+
     void set() {
       setState(() {
         click = Random().nextInt(5) + 1;
@@ -67,7 +69,6 @@ class _contentState extends State<content> {
         SizedBox(height: 30),
         Center(
           child: Row(
-
               //mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: <Widget>[
                 Expanded(
@@ -93,12 +94,14 @@ class _contentState extends State<content> {
         TextButton(
           style: ButtonStyle(
             foregroundColor: MaterialStateProperty.all<Color>(Colors.blueGrey),
+            backgroundColor: MaterialStatePropertyAll<Color>(Colors.black),
           ),
           onPressed: () {
             qt();
           },
-          child: Text(firstQuote),
-        )
+          child: Text("Click Here"),
+        ),
+        SizedBox(height: 50),
       ],
     );
   }

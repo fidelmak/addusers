@@ -34,10 +34,11 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: [
+          SizedBox(height: 10),
           CarouselSlider(
             items: [
               Container(
-                  margin: const EdgeInsets.all(6.0),
+                  margin: const EdgeInsets.all(2.0),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
@@ -45,7 +46,7 @@ class HomePage extends StatelessWidget {
                         fit: BoxFit.cover),
                   )),
               Container(
-                  margin: const EdgeInsets.all(6.0),
+                  margin: const EdgeInsets.all(2),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
@@ -53,7 +54,7 @@ class HomePage extends StatelessWidget {
                         fit: BoxFit.cover),
                   )),
               Container(
-                  margin: const EdgeInsets.all(6.0),
+                  margin: const EdgeInsets.all(2),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
@@ -61,7 +62,7 @@ class HomePage extends StatelessWidget {
                         fit: BoxFit.cover),
                   )),
               Container(
-                  margin: const EdgeInsets.all(6.0),
+                  margin: const EdgeInsets.all(2),
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(8.0),
                     image: const DecorationImage(
@@ -70,7 +71,7 @@ class HomePage extends StatelessWidget {
                   )),
             ],
             options: CarouselOptions(
-              height: 120.0,
+              height: 140.0,
               enlargeCenterPage: true,
               autoPlay: true,
               aspectRatio: 12 / 5,
@@ -84,9 +85,8 @@ class HomePage extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
-              Text('Selectable text'),
-              SelectionContainer.disabled(child: Text('Non-selectable text')),
-              Text('Selectable text'),
+              Text('welcome dev'),
+              Text('Emi idan'),
             ],
           ),
           SizedBox(height: 30),
