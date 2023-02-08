@@ -12,7 +12,7 @@ class myApp extends StatelessWidget {
     // ignore: prefer_const_constructors
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Awesome App ",
+      title: "Awesome Quotes ",
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
       ),
