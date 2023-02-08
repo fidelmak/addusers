@@ -1,15 +1,18 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import './content.dart';
+import 'package:intl/intl.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
+    DateTime today = DateTime.now();
+    String dateStr = "${today.day}-${today.month}-${today.year}";
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Awesome App"),
+        title: const Text("Awesome Quotes"),
         titleSpacing: 13.0,
         centerTitle: true,
         toolbarHeight: 60.2,
@@ -85,8 +88,8 @@ class HomePage extends StatelessWidget {
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: const <Widget>[
-              Text('welcome dev'),
-              Text('Emi idan'),
+              TextButton(dateStr),
+              Text('Life is a function of Hope'),
             ],
           ),
           SizedBox(height: 30),
