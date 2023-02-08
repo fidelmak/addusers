@@ -87,9 +87,9 @@ class HomePage extends StatelessWidget {
           SizedBox(height: 30),
           Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const <Widget>[
-              TextButton(dateStr),
-              Text('Life is a function of Hope'),
+            children: <Widget>[
+              Text(dateStr, style: TextStyle(color: Colors.red)),
+              Text('Life is a function of Hope :)'),
             ],
           ),
           SizedBox(height: 30),
