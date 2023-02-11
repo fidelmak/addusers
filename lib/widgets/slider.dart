@@ -89,7 +89,7 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
               Text(dateStr, style: TextStyle(color: Colors.red)),
-              Text('Life is a function of Hope :)'),
+              Text('Life is a Function of Hope :)'),
             ],
           ),
           SizedBox(height: 30),
