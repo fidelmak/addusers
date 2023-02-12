@@ -1,4 +1,4 @@
-# addusers
+# Simple App with slider 
 
 A new Flutter project.
 
@@ -11,6 +11,11 @@ A few resources to get you started if this is your first Flutter project:
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# Demo of the App
+
+
+https://user-images.githubusercontent.com/64453973/218294567-3dd5b837-10c8-405c-a44f-28caa95c4fdd.mp4
+
+
+
