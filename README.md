@@ -1,4 +1,4 @@
-# Simple App with slider 
+# Simple Quote app with slider 
 
 A new Flutter project.
 
